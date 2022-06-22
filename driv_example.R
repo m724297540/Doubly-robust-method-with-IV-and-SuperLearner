@@ -29,6 +29,6 @@ X <- data %>%
 T <- data$nsib
 Z <- data$coverage_percent
 result <- driv.final(Y,X,T,Z,k=5, "rf")
-datanew <-  result$cate
+haz_boy_cate <-  result$cate
 haz_boy_rf <- result$forest
 
